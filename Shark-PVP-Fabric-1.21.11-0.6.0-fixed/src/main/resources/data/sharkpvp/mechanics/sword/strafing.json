@@ -1,0 +1,64 @@
+{
+  "id": "sword.strafing",
+  "name": "Strafing",
+  "short_name": "Strafing",
+  "gamemodes": [
+    "sword",
+    "axe",
+    "boxing",
+    "smp"
+  ],
+  "icon": "sharkpvp:movement",
+  "difficulty": "beginner",
+  "enabled": true,
+  "order": 30,
+  "description": "Learn directional movement concepts during PvP exchanges.",
+  "short_description": "Practice directional movement around a target.",
+  "tags": [
+    "movement",
+    "aim",
+    "spacing",
+    "beginner"
+  ],
+  "preview": {
+    "type": "interactive",
+    "id": "movement.strafing"
+  },
+  "steps": [
+    {
+      "id": "start",
+      "number": 1,
+      "title": "Establish movement",
+      "description": "Begin moving while maintaining aim.",
+      "preview_timestamp": 0.0
+    },
+    {
+      "id": "circle",
+      "number": 2,
+      "title": "Change direction",
+      "description": "Move laterally around the target.",
+      "preview_timestamp": 1.5
+    },
+    {
+      "id": "track",
+      "number": 3,
+      "title": "Maintain tracking",
+      "description": "Keep the target in the appropriate aim area while moving.",
+      "preview_timestamp": 3.0
+    }
+  ],
+  "tips": [
+    "Avoid predictable movement.",
+    "Keep movement controlled."
+  ],
+  "common_mistakes": [
+    "Moving without tracking.",
+    "Predictable direction changes.",
+    "Losing spacing."
+  ],
+  "related_mechanics": [
+    "sword.w_tap",
+    "sword.three_block_hit"
+  ],
+  "training_scenario": "movement.strafing.training"
+}

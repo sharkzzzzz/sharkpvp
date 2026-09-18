@@ -1,0 +1,29 @@
+{
+  "id": "sword.three_block_hit.training",
+  "name": "3-Block Hit Practice",
+  "gamemodes": [
+    "sword"
+  ],
+  "mechanic": "sword.three_block_hit",
+  "type": "spacing",
+  "difficulty": "intermediate",
+  "duration": 30,
+  "target": {
+    "behavior": "linear",
+    "starting_distance": 3.0,
+    "movement_speed": 0.1,
+    "direction_changes": false
+  },
+  "player": {
+    "crosshair_control": true,
+    "real_camera_control": false
+  },
+  "metrics": [
+    "accuracy",
+    "timing",
+    "spacing",
+    "consistency"
+  ],
+  "show_feedback": true,
+  "enabled": true
+}

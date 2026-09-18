@@ -1,0 +1,72 @@
+{
+  "id": "sword.w_tap",
+  "name": "W-Tap",
+  "short_name": "W-Tap",
+  "gamemodes": [
+    "sword",
+    "boxing",
+    "smp"
+  ],
+  "icon": "pvpmechanics:sword",
+  "difficulty": "intermediate",
+  "enabled": true,
+  "order": 10,
+  "description": "A visual explanation of sprint-reset timing and movement control during melee exchanges.",
+  "short_description": "Study sprint-reset timing and movement control.",
+  "tags": [
+    "sword",
+    "movement",
+    "sprint",
+    "timing",
+    "combo"
+  ],
+  "preview": {
+    "type": "timeline",
+    "id": "sword.w_tap.preview"
+  },
+  "steps": [
+    {
+      "id": "approach",
+      "number": 1,
+      "title": "Approach the target",
+      "description": "Move toward the target while maintaining appropriate spacing.",
+      "preview_timestamp": 0.0,
+      "tip": "Focus on spacing before speed."
+    },
+    {
+      "id": "attack",
+      "number": 2,
+      "title": "Attack",
+      "description": "Perform the attack during an appropriate timing window.",
+      "preview_timestamp": 1.5
+    },
+    {
+      "id": "reset",
+      "number": 3,
+      "title": "Reset sprint timing",
+      "description": "Practice the sprint-reset input manually after the attack.",
+      "preview_timestamp": 2.0
+    }
+  ],
+  "tips": [
+    "Maintain consistent spacing.",
+    "Watch target movement.",
+    "Practice timing before increasing speed."
+  ],
+  "common_mistakes": [
+    "Resetting too early.",
+    "Resetting too late.",
+    "Losing spacing."
+  ],
+  "related_mechanics": [
+    "sword.sprint_reset",
+    "sword.strafing",
+    "sword.combo_extension"
+  ],
+  "training_scenario": "sword.w_tap.training",
+  "developer": {
+    "author": "SharkzW",
+    "version": 1,
+    "curated": true
+  }
+}

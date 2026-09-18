@@ -1,0 +1,28 @@
+{
+  "id": "sword.w_tap.training",
+  "name": "W-Tap Practice",
+  "gamemodes": [
+    "sword"
+  ],
+  "mechanic": "sword.w_tap",
+  "type": "timing",
+  "difficulty": "intermediate",
+  "duration": 30,
+  "target": {
+    "behavior": "linear",
+    "starting_distance": 3.0,
+    "movement_speed": 0.08,
+    "direction_changes": true
+  },
+  "player": {
+    "crosshair_control": true,
+    "real_camera_control": false
+  },
+  "metrics": [
+    "timing",
+    "spacing",
+    "consistency"
+  ],
+  "show_feedback": true,
+  "enabled": true
+}

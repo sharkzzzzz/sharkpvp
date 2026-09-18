@@ -1,0 +1,79 @@
+{
+  "id": "sword.three_block_hit",
+  "name": "3-Block Hit",
+  "short_name": "3-Block Hit",
+  "gamemodes": [
+    "sword"
+  ],
+  "icon": "sharkpvp:sword",
+  "difficulty": "intermediate",
+  "enabled": true,
+  "order": 50,
+  "description": "A visual training mechanic focused on spacing and attack timing around approximately three blocks.",
+  "short_description": "Practice spacing and attack timing.",
+  "tags": [
+    "sword",
+    "spacing",
+    "timing",
+    "aim",
+    "beginner"
+  ],
+  "preview": {
+    "type": "timeline",
+    "id": "sword.three_block_hit.preview"
+  },
+  "steps": [
+    {
+      "id": "distance",
+      "number": 1,
+      "title": "Create distance",
+      "description": "Establish the desired spacing from the target.",
+      "preview_timestamp": 0.0
+    },
+    {
+      "id": "approach",
+      "number": 2,
+      "title": "Approach the target",
+      "description": "Move toward the target while maintaining spacing control.",
+      "preview_timestamp": 1.5
+    },
+    {
+      "id": "align",
+      "number": 3,
+      "title": "Align your crosshair",
+      "description": "Align the crosshair with the target.",
+      "preview_timestamp": 3.0
+    },
+    {
+      "id": "attack",
+      "number": 4,
+      "title": "Time the hit",
+      "description": "Attack during the demonstrated timing window.",
+      "preview_timestamp": 4.0
+    },
+    {
+      "id": "recover",
+      "number": 5,
+      "title": "Recover and maintain spacing",
+      "description": "Prepare for the next exchange.",
+      "preview_timestamp": 4.7
+    }
+  ],
+  "tips": [
+    "Maintain consistent spacing.",
+    "Watch target movement.",
+    "Practice timing before speed."
+  ],
+  "common_mistakes": [
+    "Attacking too early.",
+    "Attacking too late.",
+    "Losing spacing.",
+    "Poor crosshair alignment."
+  ],
+  "related_mechanics": [
+    "sword.w_tap",
+    "sword.strafing",
+    "sword.hit_selection"
+  ],
+  "training_scenario": "sword.three_block_hit.training"
+}

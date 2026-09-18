@@ -1,0 +1,59 @@
+{
+  "id": "axe.shield_pressure",
+  "name": "Shield Pressure",
+  "gamemodes": [
+    "axe"
+  ],
+  "icon": "pvpmechanics:shield",
+  "difficulty": "intermediate",
+  "enabled": true,
+  "order": 10,
+  "description": "Study timing and positioning concepts around defensive shield usage.",
+  "short_description": "Practice shield-pressure timing.",
+  "tags": [
+    "axe",
+    "shield",
+    "timing",
+    "spacing"
+  ],
+  "preview": {
+    "type": "timeline",
+    "id": "axe.shield_pressure.preview"
+  },
+  "steps": [
+    {
+      "id": "position",
+      "number": 1,
+      "title": "Establish position",
+      "description": "Maintain appropriate distance.",
+      "preview_timestamp": 0.0
+    },
+    {
+      "id": "observe",
+      "number": 2,
+      "title": "Observe the target",
+      "description": "Identify the demonstrated defensive state.",
+      "preview_timestamp": 1.5
+    },
+    {
+      "id": "time",
+      "number": 3,
+      "title": "Time the attack",
+      "description": "Choose an appropriate attack window.",
+      "preview_timestamp": 3.0
+    }
+  ],
+  "tips": [
+    "Watch the target rather than attacking on a fixed rhythm.",
+    "Maintain spacing."
+  ],
+  "common_mistakes": [
+    "Attacking predictably.",
+    "Ignoring spacing.",
+    "Poor timing."
+  ],
+  "related_mechanics": [
+    "axe.spacing",
+    "axe.timing"
+  ]
+}

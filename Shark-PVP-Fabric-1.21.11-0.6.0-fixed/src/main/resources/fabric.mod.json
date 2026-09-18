@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sharkpvp",
+  "version": "${version}",
+  "name": "Shark PVP",
+  "description": "A data-driven Minecraft PvP mechanics learning and preview foundation.",
+  "authors": [
+    "SharkzW"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "modmenu": [
+      "com.sharkzw.pvpmechanics.ModMenuIntegration"
+    ],
+    "client": [
+      "com.sharkzw.pvpmechanics.PvPMechanicsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  },
+  "custom": {
+    "modmenu": {
+      "update_checker": false
+    }
+  }
+}

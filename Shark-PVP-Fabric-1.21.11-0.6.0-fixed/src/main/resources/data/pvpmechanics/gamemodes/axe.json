@@ -1,0 +1,21 @@
+{
+  "id": "axe",
+  "name": "Axe",
+  "short_name": "Axe",
+  "icon": "minecraft:iron_axe",
+  "description": "Axe PvP mechanics focused on spacing, timing, and shield interactions.",
+  "short_description": "Learn axe PvP fundamentals.",
+  "order": 2,
+  "enabled": true,
+  "tags": [
+    "axe",
+    "melee",
+    "shield",
+    "timing"
+  ],
+  "tier_providers": [
+    "mctiers",
+    "subtiers",
+    "nova"
+  ]
+}

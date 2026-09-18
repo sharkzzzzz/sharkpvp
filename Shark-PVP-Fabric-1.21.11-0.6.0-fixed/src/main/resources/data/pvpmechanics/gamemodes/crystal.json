@@ -1,0 +1,21 @@
+{
+  "id": "crystal",
+  "name": "Crystal",
+  "short_name": "Crystal",
+  "icon": "minecraft:end_crystal",
+  "description": "Crystal PvP positioning, timing, and placement concepts.",
+  "short_description": "Study crystal mechanics.",
+  "order": 3,
+  "enabled": true,
+  "tags": [
+    "crystal",
+    "placement",
+    "timing",
+    "positioning"
+  ],
+  "tier_providers": [
+    "mctiers",
+    "subtiers",
+    "nova"
+  ]
+}

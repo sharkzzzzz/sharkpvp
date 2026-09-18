@@ -1,0 +1,58 @@
+{
+  "id": "crystal.crystal_placement",
+  "name": "Crystal Placement",
+  "gamemodes": [
+    "crystal"
+  ],
+  "icon": "minecraft:end_crystal",
+  "difficulty": "advanced",
+  "enabled": true,
+  "order": 10,
+  "description": "A visual explanation of crystal placement concepts, positioning, and timing.",
+  "short_description": "Study crystal placement and timing.",
+  "tags": [
+    "crystal",
+    "placement",
+    "timing",
+    "positioning"
+  ],
+  "preview": {
+    "type": "interactive",
+    "id": "crystal.crystal_placement.preview"
+  },
+  "steps": [
+    {
+      "id": "position",
+      "number": 1,
+      "title": "Choose a position",
+      "description": "Identify an appropriate demonstration position.",
+      "preview_timestamp": 0.0
+    },
+    {
+      "id": "placement",
+      "number": 2,
+      "title": "Place the crystal",
+      "description": "Observe the placement interaction in the simulation.",
+      "preview_timestamp": 1.5
+    },
+    {
+      "id": "timing",
+      "number": 3,
+      "title": "Understand the timing",
+      "description": "Study the timing relationship.",
+      "preview_timestamp": 3.0
+    }
+  ],
+  "tips": [
+    "Learn positioning before speed.",
+    "Study timing carefully."
+  ],
+  "common_mistakes": [
+    "Poor positioning.",
+    "Incorrect timing."
+  ],
+  "related_mechanics": [
+    "crystal.positioning",
+    "crystal.timing"
+  ]
+}

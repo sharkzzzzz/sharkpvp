@@ -1,0 +1,20 @@
+{
+  "id": "mace",
+  "name": "Mace",
+  "short_name": "Mace",
+  "icon": "minecraft:mace",
+  "description": "Mace PvP concepts centered on vertical positioning and fall timing.",
+  "short_description": "Study mace timing and positioning.",
+  "order": 4,
+  "enabled": true,
+  "tags": [
+    "mace",
+    "vertical",
+    "timing"
+  ],
+  "tier_providers": [
+    "mctiers",
+    "subtiers",
+    "nova"
+  ]
+}

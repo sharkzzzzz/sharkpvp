@@ -1,0 +1,20 @@
+{
+  "id": "sword",
+  "name": "Sword",
+  "short_name": "Sword",
+  "icon": "minecraft:iron_sword",
+  "description": "Sword-focused PvP mechanics and movement.",
+  "short_description": "Learn sword PvP fundamentals and advanced techniques.",
+  "order": 1,
+  "enabled": true,
+  "tags": [
+    "sword",
+    "melee",
+    "movement"
+  ],
+  "tier_providers": [
+    "mctiers",
+    "subtiers",
+    "nova"
+  ]
+}
